@@ -13,8 +13,7 @@ const imagemin = require('gulp-imagemin');
 function css( done ) {
     src('src/scss/app.scss')
         .pipe( sass() )
-        .pipe( postcss([ autoprefixer(), cssnano() ]) )
-        .pipe( sourcemaps.write('.'))
+        .pipe( postcss([ autoprefixer() ]) )
         .pipe( dest('build/css') )
 
     done();
