@@ -24,5 +24,14 @@
     "last 1 version",
     "> 1%"
   ],
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/topgirl2410/cafeteria2.git"
+  },
+  "author": "Maria leonor pinto sabater",
+  "bugs": {
+    "url": "https://github.com/topgirl2410/cafeteria2/issues"
+  },
+  "homepage": "https://github.com/topgirl2410/cafeteria2#readme"
 }
