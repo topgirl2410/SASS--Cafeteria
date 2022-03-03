@@ -382,6 +382,24 @@ ul {
   margin: 0;
 }
 
+h1,
+h2,
+h3 {
+  margin: 0 0 5rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+}
+
+h3 {
+  font-size: 3.2rem;
+}
+
 .header {
   padding: 5rem 0;
   position: relative;
