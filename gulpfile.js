@@ -35,7 +35,7 @@ function versionWebp() {
 
 function versionAvif() {
     return src('src/img/**/*.{png,jpg}')
-        .pipe(webp())
+        .pipe(avif())
         .pipe(dest('build/img'))
 }
 
