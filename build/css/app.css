@@ -545,9 +545,9 @@ h3 {
   .iconos .listado-iconos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    -webkit-column-gap: 5rem;
-       -moz-column-gap: 5rem;
-            column-gap: 5rem;
+    -webkit-column-gap: 2rem;
+       -moz-column-gap: 2rem;
+            column-gap: 2rem;
   }
 }
 .iconos .listado-iconos li img {
