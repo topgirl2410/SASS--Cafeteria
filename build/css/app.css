@@ -404,6 +404,38 @@ ul {
   background-image: url(../img/header_inicio.jpg);
 }
 
+.nav-principal {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+@media (min-width: 768px) {
+  .nav-principal {
+    flex-direction: row;
+    gap: 1.25rem;
+    margin-top: 0;
+  }
+}
+.nav-principal a {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 1.1rem;
+}
+@media (min-width: 768px) {
+  .nav-principal a {
+    margin-bottom: 0;
+  }
+}
+.nav-principal a:hover {
+  color: #C39C63;
+}
+.nav-principal a.activo {
+  color: #C39C63;
+}
+
 .barra {
   display: flex;
   flex-direction: column;
