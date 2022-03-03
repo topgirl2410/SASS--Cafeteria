@@ -19,3 +19,10 @@
         @content;
     }
 }
+
+
+@mixin grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5rem;
+}
