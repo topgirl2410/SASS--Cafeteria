@@ -21,8 +21,8 @@
 }
 
 
-@mixin grid {
+@mixin grid($columnas, $separacion) {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 5rem;
+    grid-template-columns: repeat($columnas, 1fr);
+    column-gap: $separacion;
 }
