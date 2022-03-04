@@ -534,6 +534,43 @@ h3 {
   }
 }
 
+.footer {
+  background-color: #5E311E;
+}
+.footer .contenido-footer {
+  padding: 5rem;
+}
+@media (min-width: 768px) {
+  .footer .contenido-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+.footer .copyrigth {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 2rem;
+}
+
+.footer-box {
+  font-family: "Bona Nova", serif;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.footer-box h3 {
+  font-family: "Bona Nova", serif;
+  margin: 0 0 1rem 0;
+  font-size: 2.4rem;
+  color: #C39C63;
+}
+.footer-box p, .footer-box a {
+  font-size: 2rem;
+  margin: 0;
+}
+
 .contenido-principal {
   background-color: #FFFFFF;
   padding: 2rem;
