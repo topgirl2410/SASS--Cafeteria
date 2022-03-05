@@ -835,3 +835,29 @@ h3 {
   height: 5px;
   background-color: #C39C63;
 }
+
+.contenido-menu {
+  background-image: url(../img/cafe.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100%;
+  aspect-ratio: 3/7;
+}
+@media (min-width: 480px) {
+  .contenido-menu {
+    aspect-ratio: 3/5;
+  }
+}
+@media (min-width: 768px) {
+  .contenido-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    aspect-ratio: 16/6;
+    background-size: 40%;
+    background-position: bottom right;
+  }
+}
+.contenido-menu .texto p {
+  font-size: 1.8rem;
+}
