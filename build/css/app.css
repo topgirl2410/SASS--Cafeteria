@@ -810,10 +810,7 @@ h3 {
   margin-bottom: 0;
 }
 .proceso-cafe:nth-child(even) .texto {
-  order: 1;
-}
-.proceso-cafe:nth-child(even) .imagen {
-  order: 2;
+  order: -1;
 }
 .proceso-cafe .imagen,
 .proceso-cafe .texto {

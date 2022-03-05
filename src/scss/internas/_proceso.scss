@@ -16,11 +16,7 @@
 
     &:nth-child(even) {
         .texto {
-            order: 1;
-        }
-
-        .imagen {
-            order: 2;
+            order: -1;
         }
     }
 
