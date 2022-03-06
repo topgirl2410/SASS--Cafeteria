@@ -1,0 +1,54 @@
+@use 'base/variables'as v;
+@use 'base/mixins'as m;
+
+
+.contenido-contacto {
+
+    @include m.tablet {
+        @include m.grid(2, v.$separacion);
+        background-image: url(../img/galeria/core.jpg);
+        background-repeat: no-repeat;
+        background-size: 55%;
+        background-position: center right;
+    }
+}
+
+.formulario {
+
+    .campo {
+        margin-bottom: 2rem;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+
+        label {
+            text-transform: uppercase;
+            display: block;
+            font-size: 2.2rem;
+            font-weight: 700;
+        }
+
+        input:not([type="submit"]),
+        select {
+            width: 90%;
+            padding: .5rem;
+            border: .5rem solid v.$primario;
+        }
+
+        input[type="submit"] {
+            background-color: v.$primario;
+            width: 93%;
+            border: none;
+            padding: 1rem;
+            color: v.$blanco;
+            font-size: 2.2rem;
+            font-weight: 700;
+            text-transform: uppercase;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
